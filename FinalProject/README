@@ -1,0 +1,16 @@
+##### FILES INCLUDED IN THE "INTO THE DEEP: TIMING ALGORITHMS AND FINDING SPEED" FINAL PROJECT IMPLEMENTATION #####
+
+ALGORITHM.PY -- Setup for counting the number of nodes and the frontier on each problem
+EXPERIMENTS.PY -- Experiments 1-3 that were dicussed in the paper put into code to execute
+NODE.PY -- Handler for the nodes that exist in the tree for each algorithm
+PROBLEM.PY -- Setup class for some problem to be solved (Towers of Hanoi in this case)
+SEARCH.PY -- Implementation of all the algorithms (BFS, DFS, and DL_DFS are used for the project)
+TOWERS.PY -- Class for the setup of the Towers of Hanoi problem
+UTILS.PY -- Class for printing the information like time and nodes searched, as well as keeping a real time update of how many nodes are visited while the code is run
+
+##### NON-IMPORTANT FOLDERS ALSO INCLUDED #####
+
+__PYCACHE__ -- Used for storing information during execution in VS Code
+.VS -- Setup for VS Code to run Python
+.VSCODE -- Folder for VS Code specific magic that is only used when being run in VS Code
+
