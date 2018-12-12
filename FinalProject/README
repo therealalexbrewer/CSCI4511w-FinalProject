@@ -13,4 +13,4 @@ UTILS.PY -- Class for printing the information like time and nodes searched, as 
 __PYCACHE__ -- Used for storing information during execution in VS Code
 .VS -- Setup for VS Code to run Python
 .VSCODE -- Folder for VS Code specific magic that is only used when being run in VS Code
-
+EXPERIMENTRESULTS -- Folder with the results of each experiment that was run in the code
