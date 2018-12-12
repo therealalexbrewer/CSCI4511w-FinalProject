@@ -36,76 +36,76 @@ def test_proj():
 
     # -- NUMBER OF DISCS = 3 --
 
-    towers = 3 
+    # towers = 3 
 
-    # TEST 1 - BFS_GRAPH
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = BFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
+    # # TEST 1 - BFS_GRAPH
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = BFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
 
-    # TEST 2 - DFS_GRAPH (PARENT) 
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
-    towers = towers + 1
+    # # TEST 2 - DFS_GRAPH (PARENT) 
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
+    # towers = towers + 1
 
     
-    # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
-    depthLimit = 7
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
-    Utils.solveProblem(title, problem, searchAlgorithm)  
+    # # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
+    # depthLimit = 7
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
+    # Utils.solveProblem(title, problem, searchAlgorithm)  
 
 
 
-    # -- NUMBER OF DISCS = 4 --
+    # # -- NUMBER OF DISCS = 4 --
 
-    towers = 4
+    # towers = 4
 
-    # TEST 1 - BFS_GRAPH
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = BFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
+    # # TEST 1 - BFS_GRAPH
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = BFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
 
-    # TEST 2 - DFS_GRAPH (PARENT)
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
+    # # TEST 2 - DFS_GRAPH (PARENT)
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
 
-    # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
-    depthLimit = 15
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
-    Utils.solveProblem(title, problem, searchAlgorithm)  
+    # # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
+    # depthLimit = 15
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
+    # Utils.solveProblem(title, problem, searchAlgorithm)  
 
-    # -- NUMBER OF DISCS = 5 --
+    # # -- NUMBER OF DISCS = 5 --
 
-    towers = 5 
+    # towers = 5 
 
-    # TEST 1 - BFS_GRAPH
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = BFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
+    # # TEST 1 - BFS_GRAPH
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = BFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
 
-    # TEST 2 - DFS_GRAPH (PARENT)
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DFS_Graph(verbose=True)
-    Utils.solveProblem(title, problem, searchAlgorithm)
+    # # TEST 2 - DFS_GRAPH (PARENT)
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DFS_Graph(verbose=True)
+    # Utils.solveProblem(title, problem, searchAlgorithm)
 
-    # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
-    depthLimit = 31
-    title = "Towers: %d " % (towers)
-    problem = TowersOfHanoi(towers)
-    searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
-    Utils.solveProblem(title, problem, searchAlgorithm)  
+    # # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION)
+    # depthLimit = 31
+    # title = "Towers: %d " % (towers)
+    # problem = TowersOfHanoi(towers)
+    # searchAlgorithm = DL_DFS(verbose=True, depth_limit=depthLimit)
+    # Utils.solveProblem(title, problem, searchAlgorithm)  
 
     # ---- END OF EXPERIMENT 1 TESTS ----
 
@@ -117,29 +117,44 @@ def test_proj():
 
     # RUN A LOOP THAT GOES UP TO 20 TO TEST THE TIME IT TAKES FOR EACH ALGORITHM TO SOLVE A CERTAIN AMOUNT OF DISCS AT A GIVEN TIME. IF THE ALGORITHM POSTS RESULTS
     # THAT EXCEED AN HOUR IN LENGTH, THE TESTS WILL BE TERMINATED AND THAT WILL BE THE THEORETICAL LIMIT FOR THAT ALGORITHM.
-    towers = 3;
-    while towers < 15:
-        # TEST 1 - BFS_GRAPH
-        title = "Towers: %d " % (towers)
-        problem = TowersOfHanoi(towers)
-        searchAlgorithm = BFS_Graph(verbose=True, depth_limit=towers*100)
-        Utils.solveProblem(title, problem, searchAlgorithm)  
+    # towers = 3
+    # while towers < 15:
+    #     # TEST 1 - BFS_GRAPH
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = BFS_Graph(verbose=True)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)  
+    #     towers = towers + 1
 
-    while towers < 15:
-         # TEST 2 - DFS_GRAPH (PARENT)
-        depthLimit = 50
-        title = "Towers: %d " % (towers)
-        problem = TowersOfHanoi(towers)
-        searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*100)
-        Utils.solveProblem(title, problem, searchAlgorithm)
+    # towers = 3
+    # while towers < 15:
+    #      # TEST 2 - DFS_GRAPH (PARENT)
+    #     depthLimit = 50
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = DL_DFS(verbose=True)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)
+    #     towers = towers + 1
 
+    # towers = 3
+    # while towers < 15:
+    #      # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION DEPTH)
+    #     depthLimit = (2**towers) -1
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = DL_DFS(verbose=True,depth_limit=depthLimit)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)
+    #     towers = towers + 1
+
+    towers = 3
     while towers < 15:
-         # TEST 3 - DL_DFS (SET TO THE OPTIMAL SOLUTION DEPTH)
-        depthLimit = (pow(2,towers)) - 1
+         # TEST 3 - DL_DFS (SET TO THE 5000)
+        depthLimit = 500
         title = "Towers: %d " % (towers)
         problem = TowersOfHanoi(towers)
-        searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*100)
+        searchAlgorithm = DL_DFS(verbose=True,depth_limit=depthLimit)
         Utils.solveProblem(title, problem, searchAlgorithm)
+        towers = towers + 1
         
     # ---- END OF EXPERIMENT 2 TESTS ----
 
@@ -150,25 +165,25 @@ def test_proj():
 
     # ---- BEGIN EXPERIMENT 3 TESTS ----
 
-    towers = 3;
-    while towers < 15:
-         # TEST 3 - ID_DFS
-        depthLimit = 50
-        title = "Towers: %d " % (towers)
-        problem = TowersOfHanoi(towers)
-        searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*100)
-        Utils.solveProblem(title, problem, searchAlgorithm)  
+    # towers = 3;
+    # while towers < 15:
+    #      # TEST 3 - ID_DFS
+    #     depthLimit = 50
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*100)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)  
 
-        title = "Towers: %d " % (towers)
-        problem = TowersOfHanoi(towers)
-        searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*1000)
-        Utils.solveProblem(title, problem, searchAlgorithm)  
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*1000)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)  
 
-        title = "Towers: %d " % (towers)
-        problem = TowersOfHanoi(towers)
-        searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*10000)
-        Utils.solveProblem(title, problem, searchAlgorithm)  
-        towers = towers + 1
+    #     title = "Towers: %d " % (towers)
+    #     problem = TowersOfHanoi(towers)
+    #     searchAlgorithm = DL_DFS(verbose=True, depth_limit=towers*10000)
+    #     Utils.solveProblem(title, problem, searchAlgorithm)  
+    #     towers = towers + 1
 
     # ---- END OF EXPERIMENT 3 TESTS ----
 
