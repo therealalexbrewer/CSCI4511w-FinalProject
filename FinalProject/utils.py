@@ -34,6 +34,9 @@ class Utils:
         algorithm.print_solution()
         algorithm.print_stats()
 
+        # Set recursion limit to a higher number so DLDFS can run longer
+        sys.setrecursionlimit(10000000)
+
     # @staticmethod
     # def loadArgv():
     #     try:
